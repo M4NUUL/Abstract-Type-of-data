@@ -39,3 +39,7 @@
 
 # debug information files
 *.dwo
+
+
+# Text files
+*.txt
