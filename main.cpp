@@ -403,7 +403,7 @@ void treeMenu() {
             case 3:
                 cout << "Проверка: дерево " << (isComplete(tree) ? "является" : "не является") << " полным.\n";
                 break;
-            case 4: print(tree); break;
+            case 4: prettyPrint(tree); break;
             case 5: saveData(tree); break;
             case 0: return;
             default: cout << "Неверный выбор!\n";

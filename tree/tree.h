@@ -15,5 +15,6 @@ void insert(CompleteBinaryTree& tree, const std::string& value); // Добавл
 int search(const CompleteBinaryTree& tree, const std::string& value); // Поиск элемента (возвращает индекс или -1)
 void print(const CompleteBinaryTree& tree); // Чтение (печать) всего дерева
 bool isComplete(const CompleteBinaryTree& tree); // Проверка на полноту
+void prettyPrint(const CompleteBinaryTree& tree); // Красивое чтение дерева
 
-#endif 
+#endif
